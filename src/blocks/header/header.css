@@ -1,0 +1,80 @@
+.header{
+    padding-top: 31px;
+}
+
+.header__city{
+    width: 115px;
+    font-size: 12px;
+    background: url("img/arrowBottom.png") no-repeat 95% center / 8px 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.header__city::-ms-expand{
+    display: none;
+}
+
+.header__city-wrapper{
+    position: relative;
+    padding-left: 20px;
+}
+
+.header__city-wrapper::before{
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 18px;
+    left: 0px;
+    top: 5px;
+    background: url("img/position-icon.png") no-repeat center / cover;
+}
+
+.header__left, .header__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left{
+    width: 170px;
+}
+
+.header__right{
+    width: 268px;
+}
+
+
+.header__title{
+    color: #333333;
+    font-family: Ubuntu;
+    font-size: 59px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.header__title span:first-child{
+    font-weight: bold;
+}
+.header__title span:last-child{
+    font-weight: 400;
+}
+
+.header nav{
+    padding: 20px 0px;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+}
+
+.header__menu{
+    list-style: none;
+}
+
+.header__nav-item{
+    font-size: 13px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+[class$='-icon']{
+    cursor: pointer;
+}
+
+.tel-icon{
+    width: 17px;
+    height: 17px;
+    background: url("img/tel-icon.png") no-repeat center / cover;
+}
+
+.search-icon{
+    width: 18px;
+    height: 18px;
+    background: url("img/search-icon.png") no-repeat center / contain;
+}
+.user-icon{
+    width: 14px;
+    height: 18px;
+    background: url("img/user-icon.png") no-repeat center / contain;
+}
+.bookmark-icon{
+    width: 14px;
+    height: 18px;
+    background: url("img/bookmark-icon.png") no-repeat center / contain;
+}
+.favourite-icon{
+    width: 19px;
+    height: 18px;
+    background: url("img/favourite-icon.png") no-repeat center / contain;
+}
+.basket-icon{
+    width: 17px;
+    height: 18px;
+    background: url("img/basket-icon.png") no-repeat center / contain;
+}
