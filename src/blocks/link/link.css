@@ -1,3 +1,14 @@
 .link{
     text-decoration: none;
 }
+
+.link_footer{
+    color: #848484;
+    font-size: 13px;
+}
+
+.link_subscription{
+    color: #848484;
+    display: block;
+    text-align: center;
+}

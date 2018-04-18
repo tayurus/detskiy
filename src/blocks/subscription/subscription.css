@@ -1,0 +1,21 @@
+.subscription{
+    padding: 20px 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+}
+
+.subscription__text{
+    color: #333333;
+    line-height: 20px;
+    text-align: center;
+}
+
+.subscription__input{
+    width: 100%;
+    border: 1px solid #acacac;
+    padding: 20px;
+    font-size: 14px;
+    color: #848484;
+    margin: 0px auto;
+}

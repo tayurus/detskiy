@@ -1,0 +1,68 @@
+.owl-main__title{
+    font-size: 48px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.owl-main__subtitle{
+    color: #dc1d46;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 26px;
+}
+
+.owl-main__text{
+    color: #646464;
+    font-size: 20px;
+}
+
+.owl-main .owl-prev{
+    width: 44px;
+    height: 44px;
+    background: url("img/carousel-left.png") no-repeat center / contain !important;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    outline: none !important;
+}
+
+.owl-main .owl-prev span, .owl-main .owl-next span{
+    font-size: 0px !important;
+}
+
+.owl-main .owl-next{
+    width: 44px;
+    height: 44px;
+    background: url("img/carousel-right.png") no-repeat center / contain !important;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    outline: none !important;
+}
+
+@media (max-width:550px),(max-device-width:550px) {
+    .owl-main__title{
+        font-size: 36px;
+    }
+
+    .owl-main__subtitle{
+        font-size: 20px;
+    }
+
+    .owl-main__text{
+        font-size: 16px;
+    }
+
+    .owl-main .owl-prev{
+        width: 30px;
+        height: 30px;
+        left: -15px;
+    }
+
+    .owl-main .owl-next{
+        width: 30px;
+        height: 30px;
+        right: -15px;
+    }
+}

@@ -1,12 +1,33 @@
 doctype html
 html(lang="en")
     include ../blocks/head/head.jade
-    body
+    body.text-center.text-md-left
         include ../blocks/header/header.jade
             
         main
-        .container
-            
-            
-        
+            section.container-fluid.background_blue
+                .owl-main.owl-carousel.owl-theme
+                    .container
+                        .row.text-center.align-items-center
+                            .col-md-8.col-20.mx-auto
+                                img.img-fluid.align-self-end(src="img/boy.png", alt="Стильный малый")
+                            .col-md-12.col-20.mx-auto
+                                h2.owl-main__title Коллекция 
+                                    strong.text-uppercase ЗИМА 2018
+                                h3.owl-main__subtitle Мировые бренды детской одежды
+                                h5.owl-main__text Успейте купить товары по привлекательным ценам на всю коллекцию Зима 2018 от мировых брендов!
+                                button.button_owl-main купить
+                    .container
+                        .row.text-center.align-items-center
+                            .col-md-8.col-20.mx-auto
+                                img.img-fluid(src="img/boy.png", alt="Стильный малый")
+                            .col-md-12.col-20.mx-auto
+                                h2.owl-main__title Коллекция 
+                                    strong.text-uppercase ЗИМА 2018
+                                h3.owl-main__subtitle Мировые бренды детской одежды
+                                h5.owl-main__text Успейте купить товары по привлекательным ценам на всю коллекцию Зима 2018 от мировых брендов!
+                                button.button_owl-main купить
+                            
+                    
+            include ../blocks/subscription/subscription.jade
         include ../blocks/footer/footer.jade

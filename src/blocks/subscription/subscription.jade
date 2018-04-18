@@ -1,0 +1,14 @@
+.container-fluid.subscription
+    .container
+        .row.justify-content-space-around.align-items-center
+            .col-md-7.mb-4.mb-md-0
+                .subscription__text Подпишитесь  на наши новости и получите  
+                    strong скидку 10% 
+                    | на свою первую покупку
+                a.link.link_subscription(href="#") подробнее
+            .col-md-15
+                form
+                    .d-flex.align-items-center.flex-column.flex-md-row
+                        input(type="email", required, placeholder="Введите ваш e-mail", class="subscription__input mb-4 mb-md-0")
+                        button.button.button_subscription Подписаться 
+                            .subscription-icon

@@ -1,8 +1,36 @@
+[class^="button"]{
+    cursor: pointer;
+}
+
 .button{
     outline: none;
-    padding: 10px 22px;
+    padding: 17px 50px;
     text-align: center;
+}
+
+.button_owl-main{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 18px 68px;
+    border: 1px solid #000000;
+    background: transparent;
     display: block;
-    margin: 0px auto;
-    width: max-content;
+    margin: 40px auto 0px auto;
+    position: relative;
+    top: -15px;
+}
+
+.button_subscription{
+    min-width: 197px;
+    max-width: 197px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 18px 0px 18px 0px;
+    border: none;
+    background-color: #383838;
 }

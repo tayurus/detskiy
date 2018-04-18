@@ -1,0 +1,31 @@
+.footer{
+    background: #f7f7f7;
+    padding: 50px 0px;
+    border-bottom: 1px solid #acacac;
+}
+
+.footer__subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__text{
+    color: #999999;
+    font-family: Ubuntu;
+    font-size: 14px;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.footer__text_bottom{
+    background: #f7f7f7;
+    color: #333333;
+    font-family: Ubuntu;
+    font-size: 14px;
+    text-align: center;
+    padding: 24px 0px 34px 0px;
+}
