@@ -34,3 +34,34 @@
     border: none;
     background-color: #383838;
 }
+
+.button_category{
+    display: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 17px 50px;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    opacity: 0.8;
+    text-decoration: none !important;
+    outline: 1px solid #ffffff;
+    outline-offset: 5px;
+}
+
+.button_category:hover{
+    color: #000;
+}
+
+.button_product{
+    visibility:hidden;
+    color: #316ec8;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #316ec8;
+    background-color: transparent;
+    padding: 6px 45px;
+    margin: 5px auto 9px auto;
+}

@@ -42,10 +42,12 @@
 
 .header__left{
     width: 170px;
+    margin-right: 2rem;
 }
 
 .header__right{
     width: 268px;
+    margin-left: 2rem;
 }
 
 

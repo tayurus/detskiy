@@ -12,3 +12,8 @@
     display: block;
     text-align: center;
 }
+
+.link_article{
+    color: #333333;
+    text-decoration: underline !important;
+}

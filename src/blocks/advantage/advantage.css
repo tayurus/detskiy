@@ -1,0 +1,24 @@
+.advantage{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.advantage__img-wrapper{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage__text{
+    font-size: 14px;
+}
+
+.advantage__text_gray{
+    color: #646464;
+}
