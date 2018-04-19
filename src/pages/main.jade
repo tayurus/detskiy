@@ -1,0 +1,114 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body.text-center.text-md-left
+        include ../blocks/header/header.jade
+            
+        main
+            section.container-fluid.background_blue
+                .owl-main.owl-carousel.owl-theme
+                    .container
+                        .row.text-center.align-items-center
+                            .col-md-8.col-20.mx-auto
+                                img.img-fluid.align-self-end(src="img/boy.png", alt="Стильный малый")
+                            .col-md-12.col-20.mx-auto
+                                h2.owl-main__title Коллекция 
+                                    strong.text-uppercase ЗИМА 2018
+                                h3.owl-main__subtitle Мировые бренды детской одежды
+                                h5.owl-main__text Успейте купить товары по привлекательным ценам на всю коллекцию Зима 2018 от мировых брендов!
+                                a.button_owl-main(href="#") купить
+                    .container
+                        .row.text-center.align-items-center
+                            .col-md-8.col-20.mx-auto
+                                img.img-fluid(src="img/boy.png", alt="Стильный малый")
+                            .col-md-12.col-20.mx-auto
+                                h2.owl-main__title Коллекция 
+                                    strong.text-uppercase ЗИМА 2018
+                                h3.owl-main__subtitle Мировые бренды детской одежды
+                                h5.owl-main__text Успейте купить товары по привлекательным ценам на всю коллекцию Зима 2018 от мировых брендов!
+                                a.button_owl-main(href="#") купить
+                                
+            section.container
+                .row
+                    .col-xl-8.mb-4
+                        .category
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category1.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title Все для новорожденных
+                    .col-xl-8.mb-4
+                        .category
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category2.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title Развиваюшие игры и игрушки
+                    .col-xl-8.mb-4
+                        .category
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category3.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title В школу
+                    .col-xl-12.mb-4
+                        .category.category_big
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category4.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title Новая коллекция: Holiday
+                    .col-xl-12.mb-4
+                        .category.category_big
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category5.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title Новая коллекция: sweet home
+                    .col-xl-8.mb-4
+                        .category
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category1.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title Все для новорожденных
+                    .col-xl-8.mb-4
+                        .category
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category2.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title Развиваюшие игры и игрушки
+                    .col-xl-8.mb-4
+                        .category
+                            .category__blackout
+                            img.category__img.img-fluid(src="img/category3.png", alt="Категория")
+                            a.button.button_category(href="#") Смотреть
+                            h3.category__title В школу
+                            
+            section.container.container_products
+                include ../blocks/product/product.jade
+                        
+            section.container.container_partners
+                .row.justify-content-around
+                    img(src="img/partner1.png", alt="Партнер")            
+                    img(src="img/partner2.png", alt="Партнер")            
+                    img(src="img/partner3.png", alt="Партнер")            
+                    img(src="img/partner4.png", alt="Партнер")            
+                    img(src="img/partner5.png", alt="Партнер")            
+                    img(src="img/partner6.png", alt="Партнер")
+            
+            include ../blocks/advantage/advantage.jade
+                    
+                    
+            section.container.container_article
+                h2.container__article-title Интернет-магазин детской одежды DETSKiY
+                
+                p.container__text
+                    | DETSKIY – первый онлайн-магазин со скидками до 90% на товары ведущих мировых брендов. 
+                    | Каждый день на сайте – новые предложения модной одежды, обуви и товаров для дома по самым низким ценам. 
+                    | Для удобства пользования онлайн-каталог поделен на разделы, все товары можно сортировать по ряду критериев: цена, материал изготовления, сезонность, бренд.
+                br
+                br
+                a.link.link_article(href="#") Читать далее »
+
+
+
+                    
+                            
+                    
+            include ../blocks/subscription/subscription.jade
+        include ../blocks/footer/footer.jade

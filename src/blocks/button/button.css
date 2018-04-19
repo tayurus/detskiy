@@ -6,18 +6,26 @@
     outline: none;
     padding: 17px 50px;
     text-align: center;
+    background-color: transparent;
+    border: none;
 }
 
 .button_owl-main{
     font-size: 20px;
     text-transform: uppercase;
-    padding: 18px 68px;
-    border: 1px solid #000000;
-    background: transparent;
+    padding: 18px;
+    width: 217px;
     display: block;
     margin: 40px auto 0px auto;
+    border: 1px solid #000000;
+    background: transparent;
     position: relative;
     top: -15px;
+}
+
+.button_owl-main:hover{
+    color: #000;
+    text-decoration: none;
 }
 
 .button_subscription{
@@ -64,4 +72,35 @@
     background-color: transparent;
     padding: 6px 45px;
     margin: 5px auto 9px auto;
+}
+
+.button_feedback{
+    color: #0970cf;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #0970cf;
+    padding: 12px 30px;
+}
+
+.button_constructor{
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px 47px;
+    background-color: #0970cf;
+}
+
+.button_constructor-like{
+    padding: 0px;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #b1b1b1;
+    background: url("img/button-like.png") no-repeat center / 18px;
+}
+
+.button_constructor-bookmark{
+    padding: 0px;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #b1b1b1;
+    background: url("img/button-bookmark.png") no-repeat center / 14px 18px;
 }

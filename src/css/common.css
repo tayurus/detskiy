@@ -13,6 +13,12 @@ a{
     color: #000;
 }
 
+
+.text-gray{
+    color: #9b9b9b !important;
+}
+
+
 .background_blue{
     background: #d7edf6;
 }
@@ -65,7 +71,7 @@ a{
     width: 36px;
     height: 32px;
     background: url("img/house.png") no-repeat center / contain;
-    top: 0px;
+    top: -6px;
     left: -15px;
 }
 
@@ -81,7 +87,7 @@ a{
     width: 18px;
     height: 29px;
     background: url("img/phone.png") no-repeat center / contain;
-    top: 0px;
+    top: -5px;
     left: 0px;
 }
 

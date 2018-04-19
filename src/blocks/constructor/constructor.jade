@@ -1,0 +1,86 @@
+section.container.constructor
+    .row
+        .col-xl-2.px-0
+            .constructor__previews.flex-row.flex-xl-column
+                img.constructor__preview.constructor__preview_active(src="http://www.vseznaika.org/wp-content/uploads/2016/03/pic-00892.jpg", alt="превью", data-index="0") 
+                img.constructor__preview(src="https://x-tolkovanie.ru/uploads/fotos/558-priroda-1.jpg", alt="превью", data-index="1")
+                img.constructor__preview(src="http://ic.pics.livejournal.com/mariyarzhevska/62398212/178353/178353_900.jpg", alt="превью", data-index="2")
+                img.constructor__preview(src="http://c0.emosurf.com/0001pf0ysXco/0_ef653_1ca0d0f_orig.jpg", alt="превью", data-index="3")
+                img.constructor__preview(src="https://www.thailand-trip.org/wp-content/uploads/2015/08/priroda1.jpg", alt="превью", data-index="4")
+                img.constructor__preview(src="https://www.aum.news/system/user_files/Images/priroda_aizberg.jpg", alt="превью", data-index="5")
+                    
+        .col-xl-13
+            .constructor__img
+                img.img-fluid(src="http://www.vseznaika.org/wp-content/uploads/2016/03/pic-00892.jpg", data-current="0")
+                .constructor__img-prev
+                .constructor__img-next
+                    
+        .col-xl-9.mt-4.mt-xl-0
+            .d-flex.justify-content-between
+                .constructor__creator-name PALIO
+                img.constructor__creator(src="img/constructor__creator.png", alt="Бренд")
+            .constructor__name Брюки
+            .constructor__price 1899
+                span руб
+                
+            form.mb-4
+                select.constructor__select(required, name="color")
+                    option(disabled, hidden, selected) Цвет
+                    option Красный
+                    option Зеленый
+                    option Серо-буро-пошкарябанный
+                    
+                select.constructor__select(required, name="size")
+                    option(disabled, hidden, selected) Размер
+                    option Маленький
+                    option Побольше
+                    option Надеюсь, тут не будет много контента
+                    
+                a.link.link_constructor.d-block(href="#") Таблица размеров
+                .d-flex.align-items-center.justify-content-around.justify-content-sm-start.flex-wrap
+                    button.button.button_constructor.mr-2 Добавить в корзину
+                    div.my-2.my-sm-0.d-flex
+                        button.button.button_constructor-like.mr-2
+                        button.button.button_constructor-bookmark.mr-2
+                        
+            .d-flex
+                span.constructor__option.constructor__option_active(data-option="description") Описание
+                span.constructor__option(data-option="delivery") Доставка
+                
+            .constructor__option-body.constructor__option-body_active(data-option="description")
+                p.constructor__text Брюки PALIO выполнены из плотного текстиля с высоким содержанием хлопка. Детали: застежка на пуговицу, шлевки
+                p
+                    span.constructor__text.text-gray Состав:
+                    span.constructor__text Хлопок - 98%, Эластан - 2%
+                p
+                    span.constructor__text.text-gray Артикул:
+                    span.constructor__text MA018EGWZR26
+                    
+            .constructor__option-body(data-option="delivery")
+                p.constructor__text Доставка по всей России!
+                p
+                    span.constructor__text.text-gray По Москве:
+                    span.constructor__text Бесплатно
+                p
+                    span.constructor__text.text-gray За МКАД:
+                    span.constructor__text 100500 руб / км
+                p
+                    span.constructor__text.text-gray В регионы:
+                    span.constructor__text  Лучше приезжайте сами
+                    
+            a.link.link_constructor.d-block(href="#") Все товары 
+                span PALIO
+            a.link.link_constructor.d-block(href="#") Все
+                span брюки для девочек
+                
+            .d-flex.mt-4.align-items-center.constructor__socials
+                .constructor__text.text-gray.mr-4 Поделиться
+                a.facebook-icon.d-block.ml-2(href="#")
+                a.vk-icon.d-block.ml-2(href="#")
+                a.odn-icon.d-block.ml-2(href="#")
+                a.insta-icon.d-block.ml-2(href="#")
+                    
+                    
+                    
+                    
+                

@@ -1,0 +1,165 @@
+.constructor{
+    padding-top:10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #acacac;
+}
+
+.constructor__previews{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    user-select: none;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .constructor__preview_active{
+        border: none !important;
+    }
+}
+
+.constructor__preview{
+    max-width: 67px !important;
+    max-height: 89px !important;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    flex: 0 0 auto;
+}
+
+.constructor__preview_active{
+    border-left: 2px solid #000;
+}
+
+.constructor__preview:not(.constructor__preview_active):hover{
+    border-left: 2px solid #0970cf;
+}
+
+.constructor__img{
+    position: relative;
+    background-color: #f2f1ef;
+    user-select: none;
+}
+
+.constructor__img img{
+    width: 75%;
+    max-width: 635px !important;
+    max-height: 666px !important;
+    margin: 0px auto;
+    display: block;
+}
+
+.constructor__img-prev{
+    width: 44px;
+    height: 44px;
+    background: url("img/carousel-left.png") no-repeat center / contain !important;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    cursor: pointer;
+}
+
+.constructor__img-next{
+    width: 44px;
+    height: 44px;
+    background: url("img/carousel-right.png") no-repeat center / contain !important;
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    cursor: pointer;
+}
+
+@media (max-width:500px),(max-device-width:500px) {
+    .constructor__img-prev{
+        width: 26px;
+        height: 26px;
+        left: 2%;
+    }
+
+    .constructor__img-next{
+        width: 26px;
+        height: 26px;
+        right: 2%;
+    }
+}
+
+.constructor__creator-name, .constructor__name, .constructor__price{
+    color: #333333;
+    font-weight: bold;
+}
+
+.constructor__price{
+    margin: 15px 0px;
+}
+
+.constructor__price span{
+    margin-left: 5px;
+}
+
+.constructor__creator{
+    min-width: 59px !important;
+    max-width: 59px !important;
+    min-height: 23px !important;
+    max-height: 23px !important;
+}
+
+.constructor__select{
+    width: 100%;
+    border: 1px solid #969696;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background: url("img/select-arrow.png") no-repeat 95% center / 10px 6px;
+    margin-bottom: 10px;
+}
+
+.constructor__option{
+    color: #878787;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.constructor__option:not(:last-child){
+    margin-right: 20px;
+}
+
+.constructor__option:not(.constructor__option_active):hover{
+    border-bottom: 2px solid #0970cf;
+}
+
+.constructor__option_active{
+    border-bottom: 2px solid  #333333;
+}
+
+.constructor__option-body{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    display: none;
+    max-height: 241px;
+    border-bottom: 1px solid #acacac;
+}
+
+.constructor__option-body_active{
+    display: block;
+}
+
+.constructor__text{
+    color: #000000;
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 5px;
+}
+
+.constructor__socials{
+    border-top: 1px solid #acacac;
+    padding-top: 15px;
+}

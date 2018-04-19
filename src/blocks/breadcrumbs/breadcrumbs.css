@@ -1,0 +1,22 @@
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px 0px;
+}
+
+.breadcrumbs > li:not(:last-child){
+    margin-right: 35px;
+    position: relative;
+}
+
+.breadcrumbs > li:not(:last-child)::after{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 7px;
+    right: -18px;
+    top: 11px;
+    background: url("img/breadcrumbs-arrow.png") no-repeat center / contain;
+}

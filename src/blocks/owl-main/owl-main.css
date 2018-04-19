@@ -41,6 +41,11 @@
     outline: none !important;
 }
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
 @media (max-width:550px),(max-device-width:550px) {
     .owl-main__title{
         font-size: 36px;

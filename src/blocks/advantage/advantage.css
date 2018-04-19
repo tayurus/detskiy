@@ -1,8 +1,7 @@
 .advantage{
-    width: 270px;
+    width: 285px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
 }
 
 .advantage__img-wrapper{
@@ -13,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 15px;
 }
 
 .advantage__text{

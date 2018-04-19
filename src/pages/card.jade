@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body.text-center.text-md-left
+        include ../blocks/header/header.jade
+        
+        main
+        
+            .container
+                ul.breadcrumbs
+                    li
+                        a.link.link_breadcrumbs(href='#') Главная
+                    li
+                        a.link.link_breadcrumbs(href='#') Одежда и обувь
+                    li
+                        a.link.link_breadcrumbs(href='#') Одежда для девочек
+                        
+            include ../blocks/constructor/constructor.jade
+                        
+            section.container.container_products
+                h2.container__title С этим товаром покупают
+                include ../blocks/product/product.jade    
+                
+            include ../blocks/feedback/feedback.jade
+            
+            section.container.container_products
+                h2.container__title Вы недавно просматривали
+                include ../blocks/product/product.jade       
+                        
+                        
+            include ../blocks/advantage/advantage.jade
+                    
+            include ../blocks/subscription/subscription.jade
+        include ../blocks/footer/footer.jade

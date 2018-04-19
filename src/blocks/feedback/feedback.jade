@@ -1,0 +1,17 @@
+section.container.feedback
+    .row
+        span.feedback__option.feedback__option_active.mt-4.mt-lg-0(data-option='feedback') Отзывы
+        span.feedback__option.mt-4.mt-lg-0(data-option='question') Задать вопрос
+    .feedback__body.feedback__body_active(data-option='feedback')
+        .feedback__text
+            | У этого товара пока нет отзывов. Если вы заказывали этот товар, 
+            | поделитесь своим впечатлением о нём, и другие покупатели будут вам благодарны.
+        button.button.button_feedback.mx-auto.mx-lg-0.mt-4.mt-lg-0 Написать отзыв
+    .feedback__body(data-option='question')
+        .feedback__text
+            | Еще ни у кого не возникало вопросов по товару. Возможно, остальные просто сообразительнее Вас?
+        button.button.button_feedback.mx-auto.mx-lg-0.mt-4.mt-lg-0 Все равно задать вопрос
+        
+    
+    
+    

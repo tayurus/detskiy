@@ -17,3 +17,15 @@
     color: #333333;
     text-decoration: underline !important;
 }
+
+.link_breadcrumbs{
+    color: #646464;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+
+.link_constructor{
+    color: #4594f2;
+    font-size: 14px;
+    margin: 0px 0px 5px 0px;
+}

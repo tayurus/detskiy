@@ -1,0 +1,164 @@
+.container.catalog
+    .row
+        .col-md-5.px-0.text-center.text-md-left
+            .container__text.text-bold Категории
+            ul.catalog__list
+                li
+                    a(href="#") Девочкам
+                    ul.catalog__list
+                        li
+                            a(href="#") Одежда для девочек
+                            ul.catalog__list
+                                li
+                                    a.text-gray(href="#") Одежда для дома
+                                li
+                                    a.text-gray(href="#") Блузы и рубашки
+                                li
+                                    a.text-gray(href="#") Брюки и комбинезоны
+                                li
+                                    a.text-gray(href="#") Верхняя одежда
+                                li
+                                    a.text-gray(href="#") Джинсы
+                                li
+                                    a.text-gray(href="#") Купальники
+                                li
+                                    a.text-gray(href="#") Майки и топы
+                                li
+                                    a.text-gray(href="#") Носки и колготки
+                                li
+                                    a.text-gray(href="#") Платья 
+                                li
+                                    a.text-gray(href="#") Пиджаки и жилеты
+                                li
+                                    a.text-gray(href="#") Толстовки и олийпийки
+                                li
+                                    a.text-gray(href="#") Шорты
+                                li
+                                    a.text-gray(href="#") Юбки
+
+
+                        li
+                            a(href="#") Обувь для девочек
+                            
+                            ul.catalog__list.d-none
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                        li
+                            a(href="#") Аксессуары
+                            
+                            ul.catalog__list.d-none
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                        li
+                            a(href="#") Школа
+                            
+                            ul.catalog__list.d-none
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                        li
+                            a(href="#") Спорт
+                            
+                            ul.catalog__list.d-none
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                li
+                    a(href="#") Мальчикам
+                    ul.catalog__list.d-none
+                        li
+                            a(href="#") Одежда для мальчиков
+                            
+                            ul.catalog__list
+                                li
+                                    a.text-gray(href="#") Элемент списка
+
+                            
+                        li
+                            a(href="#") Обувь для мальчиков
+                            
+                            ul.catalog__list
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                        li
+                            a(href="#") Аксессуары
+                            
+                            ul.catalog__list
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                        li
+                            a(href="#") Школа
+                            
+                            ul.catalog__list
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                        li
+                            a(href="#") Спорт
+                            
+                            ul.catalog__list
+                                li
+                                    a.text-gray(href="#") Элемент списка
+                li
+                    a(href="#") Новорожденным
+                    ul.catalog__list.d-none
+                        li
+                            a(href="#") Одежда для новорожденных 
+                        li
+                            a(href="#") Обувь для мальчиков
+                        li
+                            a(href="#") Аксессуары
+        .col-md-19
+            h2.catalog__title Одежда для девочек
+            
+            .d-flex.justify-content-between.align-items-center.flex-column.flex-xl-row
+                div
+                    select.catalog__select(name="material", style="width:75px")
+                        option(disabled,hidden,selected) Материал
+                        option(value="material-value") Хлопок
+                        
+                    select.catalog__select(name="color", style="width:43px")
+                        option(disabled,hidden,selected) Цвет
+                        option(value="color-value") Красный
+                        
+                    select.catalog__select(name="tracery", style="width:44px")
+                        option(disabled,hidden,selected) Узор
+                        option(value="tracery-value") Замысловатый
+                        
+                    select.catalog__select(name="age", style="width:63px")
+                        option(disabled,hidden,selected) Возраст
+                        option(value="age-value") 3 годика
+                        
+                    select.catalog__select(name="size", style="width:58px")
+                        option(disabled,hidden,selected) Размер
+                        option(value="size-value") XXL
+                        
+                    select.catalog__select(name="brand", style="width:51px")
+                        option(disabled,hidden,selected) Бренд
+                        option(value="brand-value") Nike
+                        
+                    select.catalog__select(name="season", style="width:51px")
+                        option(disabled,hidden,selected) Сезон
+                        option(value="season-value") Весна
+                        
+                    select.catalog__select(name="style", style="width:51px")
+                        option(disabled,hidden,selected) Стиль
+                        option(value="style-value") Модный
+                        
+                    select.catalog__select(name="price", style="width:51px")
+                        option(disabled,hidden,selected) Цена
+                        option(value="price-value") До 5 000
+                
+                .d-flex
+                    .catalog__text Сортировать: 
+                    select.catalog__select(name="sort", style="width:125px")
+                        option(value="sort-value1") по популярности
+                        option(value="sort-value2") по цене
+                        
+            include ../product/product.jade
+            
+            .catalog__pagination
+                a.catalog__pagination-item.catalog__pagination-item_active(href="#") 1
+                a.catalog__pagination-item(href="#") 2
+                a.catalog__pagination-item(href="#") 3
+                a.catalog__pagination-item(href="#") 4
+                a.catalog__pagination-item.catalog__pagination-item_more(href="#") ...
+                a.catalog__pagination-item(href="#") 6
+                a.catalog__pagination-item.catalog__pagination-item_arrow(href="#") 
