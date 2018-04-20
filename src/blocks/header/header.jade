@@ -2,8 +2,8 @@ noscript
     p Please enable Javascript
     
 header.header
-    .container
-        .d-flex.justify-content-between.mb-3.flex-column.flex-md-row.align-items-center.align-items-md-baseline
+    .container.header__wrapper
+        .header__menu.d-flex.justify-content-between.mb-3.align-items-md-baseline
             .header__left
                 .header__city-wrapper
                     select.header__city
@@ -16,9 +16,9 @@ header.header
                 span IY
             
             .header__right
-                form
-                a(href="#", class="search-icon")
-                    input.header__search(type="text", name="search", placeholder="поиск товаров")
+                .search-icon
+                    form#search-form
+                        input.header__search(type="text", required, name="search", placeholder="поиск товаров")
                 a(href="#", class="user-icon")
                 a(href="#", class="bookmark-icon")
                 a(href="#", class="favourite-icon")

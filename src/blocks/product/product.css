@@ -77,7 +77,6 @@
 
 .product:hover{
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.35);
-    padding: 15px 15px 15px 50px;
 }
 
 .product:hover .product__previews{

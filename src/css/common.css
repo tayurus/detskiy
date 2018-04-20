@@ -34,11 +34,12 @@ a{
 }
 
 .search-icon{
-    width: 18px;
+    min-width: 18px;
     height: 18px;
-    background: url("img/search-icon.png") no-repeat center / contain;
-    position: relative;
+    background: url("img/search-icon.png") no-repeat center right / contain;
 }
+
+
 .user-icon{
     width: 14px;
     height: 18px;

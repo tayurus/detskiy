@@ -2,6 +2,7 @@
     padding-top: 31px;
 }
 
+
 .header__city{
     width: 115px;
     font-size: 12px;
@@ -52,16 +53,17 @@
 }
 
 .header__search{
+    display: none;
+    position: relative;
+    left: -20px;
+    top: -3px;
     padding-right: 5px;
-    position: absolute;
     width: 104px;
     border: none;
     border-bottom: 1px solid  #99999921;
     color: #000000;
     font-size: 12px;
     outline: none;
-    left: -111px;
-    top: 3px;
     background: transparent;
 }
 
@@ -85,7 +87,7 @@
     display: none;
     left: 0px;
     top: 0px;
-    z-index: 5;
+    z-index: 5000;
 }
 
 .header__basket{
@@ -195,7 +197,29 @@
     text-transform: uppercase;
 }
 
+
+@media (max-width:993px),(max-device-width:993px) {
+    .header__wrapper{
+        max-width: 100%;
+    }
+}
+
+@media (max-width:850px),(max-device-width:850px) {
+    .header__menu{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .header__right{
+        margin-left: 0px;
+    }
+}
+
 @media (max-width:500px),(max-device-width:500px) {
+    .header__basket{
+        right: -20px;
+    }
+
     .header__basket-right {
         width: 165px;
     }

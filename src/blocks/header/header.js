@@ -23,3 +23,15 @@ $(".header__basket-fullScreen").click(function() {
         $(".header__basket-fullScreen").hide();
     },50);
 })
+
+
+$(".search-icon").click(function() {
+    if ($(".header__search").val() != ""){
+        $("#search-form").submit();
+    }
+    $(this).find(".header__search").toggle();
+})
+
+$(".header__search").click(function(event) {
+    event.stopPropagation();
+})
