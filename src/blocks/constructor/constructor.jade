@@ -20,9 +20,26 @@ section.container.constructor
                 .constructor__creator-name PALIO
                 img.constructor__creator(src="img/constructor__creator.png", alt="Бренд")
             .constructor__name Брюки
-            .constructor__price 1899
-                span руб
+            .constructor__price 
+                span 1899
+                | руб
                 
+            .constructor__sale 10% доп. скидка по промокоду
+                .constructor__sale-window
+                    .constructor__sale-close
+                    .constructor__sale-title Цена с доп. скидкой по промокоду
+                    .constructor__sale-price
+                        span 1399
+                        | руб
+                    .constructor__sale-time
+                        | До конца акции:
+                        span 5 дней 10 часов
+                    .constructor__sale-promo Промокод:
+                        span HALLOWORLD
+                    a.link.link_constructor.d-block.text-center(href="#") Все товары и условия акции
+                
+            
+            
             form.mb-4
                 select.constructor__select(required, name="color")
                     option(disabled, hidden, selected) Цвет

@@ -11,7 +11,7 @@ $(".header__basket-close").click(function(){
         setTimeout(function() {
             $(".header__basket").hide();
             $(".header__basket-fullScreen").hide();
-        },50);
+        },10);
     }
 });
 
@@ -21,7 +21,8 @@ $(".header__basket-fullScreen").click(function() {
     setTimeout(function() {
         $(".header__basket").hide();
         $(".header__basket-fullScreen").hide();
-    },50);
+        $(".constructor__sale-window").hide();
+    },10);
 })
 
 

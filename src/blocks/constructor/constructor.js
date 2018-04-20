@@ -85,3 +85,15 @@ $(".constructor__option").click(function() {
     $(".constructor__option-body").removeClass("constructor__option-body_active");
     $(".constructor__option-body[data-option=" + $(this).attr('data-option') + "]").addClass("constructor__option-body_active");
 })
+
+$(".constructor__sale").click(function() {
+    $(".header__basket-fullScreen").show();
+    $(".constructor__sale-window").show();
+});
+
+$(".constructor__sale-close").click(function() {
+    setTimeout(function() {
+        $(".header__basket-fullScreen").hide();
+        $(".constructor__sale-window").hide();
+    },10);
+})

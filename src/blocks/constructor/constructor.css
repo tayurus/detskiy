@@ -93,9 +93,10 @@
     margin: 15px 0px;
 }
 
-.constructor__price span{
-    margin-left: 5px;
+.constructor__price span, .constructor__sale-price{
+    margin-right: 5px;
 }
+
 
 .constructor__creator{
     min-width: 59px !important;
@@ -171,4 +172,101 @@
 .constructor__socials{
     border-top: 1px solid #acacac;
     padding-top: 15px;
+}
+
+
+.constructor__sale{
+    color: #ee4f57;
+    width: 100%;
+    font-weight: 700;
+    border: 1px solid #ee4f57;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.constructor__sale-window{
+    display: none;
+    background-color: #fff;
+    padding-bottom: 10px;
+    width: 293px;
+    z-index: 3;
+    box-shadow: -1px 0 7px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: -301px;
+    top: -68px;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .constructor__sale-window{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+    }
+}
+
+.constructor__sale-close{
+    width: 10px;
+    height: 10px;
+    background: url("img/close-button.png") no-repeat center / contain;
+    margin-left: 94%;
+    margin-top: 10px;
+}
+
+.constructor__sale-title{
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.constructor__sale-price{
+    color: #ee4f57;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.constructor__sale-time{
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    padding-left: 20px;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.constructor__sale-time span{
+    color: #ee4f57;
+    margin-left: 5px;
+}
+
+.constructor__sale-time::before{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    content: "";
+    left: 0px;
+    top: 0px;
+    background: url("img/product-timer.png") no-repet center / contain;
+}
+
+.constructor__sale-promo{
+    width: 90%;
+    margin: 0px auto;
+    color: #ee4f57;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid #ee4f57;
+    padding: 3px 0px;
+}
+
+.constructor__sale-promo span{
+    font-weight: bold;
+    margin-left: 5px;
 }
