@@ -16,11 +16,85 @@ header.header
                 span IY
             
             .header__right
+                form
                 a(href="#", class="search-icon")
+                    input.header__search(type="text", name="search", placeholder="поиск товаров")
                 a(href="#", class="user-icon")
                 a(href="#", class="bookmark-icon")
                 a(href="#", class="favourite-icon")
-                a(href="#", class="basket-icon")
+                span.basket-icon
+                    span#basketSize 1
+                    .header__basket-fullScreen
+                    .header__basket
+                        .header__basket-wrapper
+                            .header__basket-item
+                                img.header__basket-img(src="img/basket-img.png", alt="Товар корзины")
+                                div.header__basket-right
+                                    .header__basket-title PALIO
+                                    .header__basket-title Брюки для девочки
+                                    .header__basket-info Размер: 
+                                        span S
+                                    .header__basket-info Цвет: 
+                                        span Синий электрик
+                                    .d-flex.justify-content-between.align-items-center
+                                        .header__basket-info Количество: 
+                                            span 1
+                                        .header__basket-price 1899
+                                            span руб
+                                .header__basket-close
+                            .header__basket-item
+                                img.header__basket-img(src="img/basket-img.png", alt="Товар корзины")
+                                div.header__basket-right
+                                    .header__basket-title PALIO
+                                    .header__basket-title Брюки для девочки
+                                    .header__basket-info Размер: 
+                                        span S
+                                    .header__basket-info Цвет: 
+                                        span Синий электрик
+                                    .d-flex.justify-content-between.align-items-center
+                                        .header__basket-info Количество: 
+                                            span 1
+                                        .header__basket-price 1899
+                                            span руб
+                                .header__basket-close
+                            .header__basket-item
+                                img.header__basket-img(src="img/basket-img.png", alt="Товар корзины")
+                                div.header__basket-right
+                                    .header__basket-title PALIO
+                                    .header__basket-title Брюки для девочки
+                                    .header__basket-info Размер: 
+                                        span S
+                                    .header__basket-info Цвет: 
+                                        span Синий электрик
+                                    .d-flex.justify-content-between.align-items-center
+                                        .header__basket-info Количество: 
+                                            span 1
+                                        .header__basket-price 1899
+                                            span руб
+                                .header__basket-close
+                            .header__basket-item
+                                img.header__basket-img(src="img/basket-img.png", alt="Товар корзины")
+                                div.header__basket-right
+                                    .header__basket-title PALIO
+                                    .header__basket-title Брюки для девочки
+                                    .header__basket-info Размер: 
+                                        span S
+                                    .header__basket-info Цвет: 
+                                        span Синий электрик
+                                    .d-flex.justify-content-between.align-items-center
+                                        .header__basket-info Количество: 
+                                            span 1
+                                        .header__basket-price 1899
+                                            span руб
+                                .header__basket-close
+                            
+                        .header__basket-total
+                            span Итого
+                            .header__basket-price 56987
+                                span руб
+                        button.button.button_basket Оформить заказ 
+                        
+                    
     nav.d-flex.justify-content-around.navbar.navbar-expand-xl
         
         button.navbar-toggler(type='button', data-toggle='collapse', data-target='#headerNav', aria-controls='headerNav', aria-expanded='false', aria-label='Toggle navigation')

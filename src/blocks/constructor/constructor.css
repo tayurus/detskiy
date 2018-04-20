@@ -146,6 +146,15 @@
     display: none;
     max-height: 241px;
     border-bottom: 1px solid #acacac;
+    overflow: auto;
+}
+
+.constructor__option-body::-webkit-scrollbar {
+    width: 4px !important;
+}
+
+.constructor__option-body::-webkit-scrollbar-thumb {
+    background: #333 !important;
 }
 
 .constructor__option-body_active{

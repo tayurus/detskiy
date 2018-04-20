@@ -104,3 +104,11 @@
     border: 1px solid #b1b1b1;
     background: url("img/button-bookmark.png") no-repeat center / 14px 18px;
 }
+
+.button_basket{
+    color: #0970cf;
+    font-size: 14px;
+    border: 1px solid #0970cf;
+    padding: 10px 0px;
+    width: 100%;
+}

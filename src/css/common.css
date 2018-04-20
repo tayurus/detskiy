@@ -37,6 +37,7 @@ a{
     width: 18px;
     height: 18px;
     background: url("img/search-icon.png") no-repeat center / contain;
+    position: relative;
 }
 .user-icon{
     width: 14px;
@@ -57,6 +58,23 @@ a{
     width: 17px;
     height: 18px;
     background: url("img/basket-icon.png") no-repeat center / contain;
+    position: relative;
+}
+
+#basketSize{
+    position: absolute;
+    color: #fff;
+    right: -13px;
+    top: -6px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 100%;
+    font-weight: bold;
 }
 
 .house-icon{
