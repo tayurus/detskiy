@@ -1,3 +1,12 @@
+
+
+@media (min-width: 1200px), (min-device-width:1200px)
+{
+    .container{
+        max-width: 1170px !important;
+    }
+}
+
 .container__title{
     text-align: center;
     font-size: 20px;
@@ -8,12 +17,11 @@
 
 .container_partners{
     padding-top: 20px;
-    padding-bottom: 20px;
     border-top: 1px solid #acacac;
 }
 
 .container_products{
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 .container_partners img{
@@ -29,7 +37,7 @@
 
 .container_article{
     padding-top: 35px;
-    padding-bottom: 54px;
+    padding-bottom: 36px;
 }
 
 .container__article-title{

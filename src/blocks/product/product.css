@@ -1,5 +1,5 @@
 .product{
-    padding: 15px 10px;
+    padding: 10px 10px 0px 10px;
     position: relative;
 }
 
@@ -29,8 +29,8 @@
 
 .product__sale{
     position: absolute;
-    top: 15px;
-    right: 10px;
+    top: 45px;
+    right: 4px;
     color: #ffffff;
     font-size: 10px;
     font-weight: 700;
@@ -41,8 +41,8 @@
 
 .product__feature{
     position: absolute;
-    top: 45px;
-    right: 10px;
+    top: 68px;
+    right: 4px;
     color: #ffffff;
     font-size: 10px;
     font-weight: 700;
@@ -95,8 +95,8 @@
 .product__img{
     min-width: 165px;
     max-width: 165px;
-    min-height: 251px;
-    max-height: 251px;
+    min-height: 230px;
+    max-height: 230px;
     margin-bottom: 10px;
 }
 

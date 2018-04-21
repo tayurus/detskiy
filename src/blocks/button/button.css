@@ -13,14 +13,16 @@
 .button_owl-main{
     font-size: 20px;
     text-transform: uppercase;
-    padding: 18px;
     width: 217px;
+    height: 50px;
+    line-height: 50px;
     display: block;
-    margin: 40px auto 0px auto;
+    margin: 41px auto 0px auto;
     border: 1px solid #000000;
     background: transparent;
     position: relative;
     top: -15px;
+    left: -9px;
 }
 
 .button_owl-main:hover{
