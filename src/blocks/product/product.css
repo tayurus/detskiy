@@ -5,6 +5,7 @@
 
 .product__previews{
     display: none;
+    background-color: #fff;
     width: 38px;
     position: absolute;
     top: 15px;

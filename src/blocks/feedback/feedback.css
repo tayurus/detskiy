@@ -5,6 +5,7 @@
 
 .feedback > .row{
     border-bottom: 1px solid #acacac;
+    padding: 0px 15px;
 }
 
 .feedback__option{
