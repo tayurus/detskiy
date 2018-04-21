@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 14px 0px;
+    padding: 0px;
 }
 
 .breadcrumbs > li:not(:last-child){

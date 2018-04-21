@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+.product__previews-item:hover{
+    border-left: 2px solid #316ec8;
+}
+
 .product__previews-item_active{
     border-left: 2px solid #000;
     cursor: auto;
@@ -29,7 +33,7 @@
 
 .product__sale{
     position: absolute;
-    top: 45px;
+    top: 25px;
     right: 4px;
     color: #ffffff;
     font-size: 10px;
@@ -41,7 +45,7 @@
 
 .product__feature{
     position: absolute;
-    top: 68px;
+    top: 49px;
     right: 4px;
     color: #ffffff;
     font-size: 10px;
@@ -54,13 +58,17 @@
 .product__like{
     width: 19px;
     height: 18px;
-    background: url("img/product__like.png") no-repeat center / 10px;
+    background: url("img/heart.png") no-repeat center / 10px;
     border: 1px solid #dbdbdb;
     border-radius: 100%;
     position: absolute;
     right: 10px;
     top: 160px;
     cursor: pointer;
+}
+
+.product__like:hover{
+    background: url("img/product__like.png") no-repeat center / 10px;
 }
 
 .product__bookmark{
@@ -73,6 +81,10 @@
     right: 10px;
     top: 190px;
     cursor: pointer;
+}
+
+.product__bookmark:hover{
+    background: url("img/bookmark-active.png") no-repeat center / 10px;
 }
 
 .product:hover{
@@ -112,12 +124,17 @@
     margin: 0px 5px;
     cursor: pointer;
     user-select: none;
+    border-bottom: 1px solid transparent;
+}
+
+.product__size:not(.product__size_active):hover{
+    border-bottom: 1px solid #316ec8;
 }
 
 .product__size_active{
-    text-decoration: underline;
     font-weight: bolder;
     cursor: auto;
+    border-bottom: 1px solid #000;
 }
 
 .product__show{

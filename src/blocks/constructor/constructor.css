@@ -12,6 +12,14 @@
     user-select: none;
 }
 
+.constructor__previews::-webkit-scrollbar {
+    width: 1px !important;
+}
+
+.constructor__previews::-webkit-scrollbar-thumb {
+    background: #333 !important;
+}
+
 @media (max-width:1200px),(max-device-width:1200px) {
     .constructor__preview_active{
         border: none !important;
@@ -19,10 +27,10 @@
 }
 
 .constructor__preview{
-    max-width: 67px !important;
+    max-width: 82px !important;
     max-height: 89px !important;
     margin-bottom: 10px;
-    padding-left: 15px;
+    padding-left: 5px;
     cursor: pointer;
     border-left: 2px solid transparent;
     flex: 0 0 auto;
@@ -40,12 +48,11 @@
     position: relative;
     background-color: #f2f1ef;
     user-select: none;
+    max-width: 635px !important;
+    max-height: 666px !important;
 }
 
 .constructor__img img{
-    width: 75%;
-    max-width: 635px !important;
-    max-height: 666px !important;
     margin: 0px auto;
     display: block;
 }
@@ -188,31 +195,25 @@
 
 
 .constructor__sale-window{
+    font-weight: 400;
     display: none;
     background-color: #fff;
     padding-bottom: 10px;
     width: 293px;
     z-index: 3;
-    box-shadow: -1px 0 7px rgba(0, 0, 0, 0.25);
+    background: url("img/constructor__sale-window.png") no-repeat center / contain;
     position: absolute;
     left: -301px;
     top: -68px;
 }
 
-@media (max-width:1200px),(max-device-width:1200px) {
-    .constructor__sale-window{
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%);
-    }
-}
 
 .constructor__sale-close{
     width: 10px;
     height: 10px;
     background: url("img/close-button.png") no-repeat center / contain;
-    margin-left: 94%;
-    margin-top: 10px;
+    margin-left: 90%;
+    margin-top: 13px;
 }
 
 .constructor__sale-title{
@@ -256,7 +257,7 @@
 }
 
 .constructor__sale-promo{
-    width: 90%;
+    width: 80%;
     margin: 0px auto;
     color: #ee4f57;
     font-size: 14px;
@@ -269,4 +270,15 @@
 .constructor__sale-promo span{
     font-weight: bold;
     margin-left: 5px;
+}
+
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .constructor__sale-window{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+        background: #fff;
+        box-shadow: -1px 0 7px rgba(0, 0, 0, 0.25);
+    }
 }
