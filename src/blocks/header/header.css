@@ -193,11 +193,22 @@
     list-style: none;
 }
 
+.header__menu li{
+    padding: 13px 0px;
+    border-bottom: 2px solid transparent;
+}
+
+.header__menu li:hover{
+    border-bottom: 2px solid #333333;
+}
+
+
 .header__nav-item{
     font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 
 
 @media (max-width:993px),(max-device-width:993px) {

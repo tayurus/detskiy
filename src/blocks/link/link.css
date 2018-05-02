@@ -7,6 +7,10 @@
     font-size: 13px;
 }
 
+.link_footer:hover{
+    font-weight: bold;
+}
+
 .link_subscription{
     color: #848484;
     display: block;
