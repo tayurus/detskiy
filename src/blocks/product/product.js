@@ -15,3 +15,24 @@ $(".product__previews-item").click(function() {
     //устанавливаем выбранное превью в качестве основного изображения товара
     $(this).parent().parent().find('.product__img').attr("src", $(this).attr("src"));
 });
+
+
+$(".product-carousel").owlCarousel({
+    items:1,
+    nav:true,
+    dots:false,
+    responsive:{
+        600:{
+            items:2
+        },
+        800:{
+            items:3
+        },
+        950:{
+            items:4
+        },
+        1200:{
+            items:6
+        }
+    }
+});
