@@ -40,6 +40,15 @@
     padding-bottom: 36px;
 }
 
+.container_article-wrapper{
+    max-height: 119px;
+    overflow: hidden;
+}
+
+.container_article-wrapper_open{
+    max-height: 100%;
+}
+
 .container__article-title{
     margin-bottom: 35px;
     color: #333333;

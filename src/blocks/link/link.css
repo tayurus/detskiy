@@ -1,5 +1,11 @@
 .link{
     text-decoration: none;
+    cursor: pointer;
+}
+
+.link_blue{
+    color: #0970cf !important;
+    font-size: 13px;
 }
 
 .link_footer{
